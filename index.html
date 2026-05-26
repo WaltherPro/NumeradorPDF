@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO Principal -->
+  <title>NumeraPDF — Numerar PDF Online Gratis | Numeracion Inversa y Estilos Elegantes</title>
+  <meta name="description"
+    content="Foliar PDF online gratis. Numeracion normal o inversa, estilos elegantes (arabigo, romano, letras) con vista previa antes de descargar. Sin registro." />
+  <meta name="keywords"
+    content="numerar PDF, foliar PDF, numeracion inversa PDF, foliar hojas PDF, numerar paginas PDF gratis, numeracion romana PDF" />
+  <link rel="canonical" href="https://NumeraPDF.netlify.app/" />
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%23059669'/><path d='M9 7h8l6 6v10a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2z' stroke='white' stroke-width='2' fill='none'/><text x='11.5' y='21' font-family='sans-serif' font-weight='800' font-size='9' fill='white'>123</text></svg>">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://NumeraPDF.netlify.app/" />
+  <meta property="og:title" content="NumeraPDF — Numerar PDF Online Gratis" />
+  <meta property="og:description"
+    content="Foliar PDF con numeracion normal o inversa, estilos elegantes y vista previa en tiempo real. Rapido, gratis, sin registro." />
+  <meta property="og:locale" content="es_ES" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="NumeraPDF — Numerar PDF Online Gratis" />
+  <meta name="twitter:description"
+    content="Foliar PDF con numeracion normal o inversa y vista previa en tiempo real. Gratis." />
+
+  <!-- Theme -->
+  <meta name="theme-color" content="#0E1117" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Structured Data JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "NumeraPDF",
+    "url": "https://NumeraPDF.netlify.app/",
+    "description": "Herramienta gratuita para numerar paginas de PDF con estilos elegantes y numeracion inversa.",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "Any",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+  }
+  </script>
+
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ===== NAV ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="logo" id="logo-link">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="32" height="32" rx="6" fill="var(--primary)" />
+          <path d="M9 7h8l6 6v10a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2z" stroke="white" stroke-width="2" />
+          <text x="11.5" y="21" font-family="var(--font-ui), sans-serif" font-weight="800" font-size="9"
+            fill="white">123</text>
+        </svg>
+        <span class="logo-text">NumeraPDF</span>
+      </a>
+      <a href="#tool" class="nav-cta" id="nav-cta">Foliar PDF</a>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+
+    <div class="hero-content">
+      <h1 class="hero-title">
+        Numera tu PDF<br />
+        <em>como un profesional</em>
+      </h1>
+      <p class="hero-subtitle">
+        La herramienta más completa para numerar documentos PDF.<br />
+        Numeración <strong>normal e inversa</strong>, estilos elegantes y vista previa en tiempo real.
+      </p>
+      <div class="hero-actions">
+        <a href="#tool" class="btn-primary" id="btn-start">
+          Comenzar ahora — es gratis
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M5 12h14M12 5l7 7-7 7" />
+          </svg>
+        </a>
+        <a href="#features" class="btn-ghost" id="btn-features">Ver funciones</a>
+      </div>
+
+      <div class="trust-row" id="trust-row">
+        <div class="trust-item">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+            <polyline points="22 4 12 14.01 9 11.01" />
+          </svg>
+          Gratis
+        </div>
+        <div class="trust-item">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+            <polyline points="22 4 12 14.01 9 11.01" />
+          </svg>
+          Sin registro
+        </div>
+        <div class="trust-item">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+            <polyline points="22 4 12 14.01 9 11.01" />
+          </svg>
+          Rápido y sencillo
+        </div>
+      </div>
+    </div><!-- /hero-content -->
+  </section>
+
+  <!-- ===== FEATURES ===== -->
+  <section class="features" id="features">
+    <div class="section-inner">
+      <div class="section-label">Funciones</div>
+      <h2 class="section-title">Todo lo que necesitas para foliar</h2>
+      <p class="section-sub">Sin instalar nada. Funciona en cualquier computadora o celular.</p>
+
+      <div class="features-grid" id="features-grid">
+
+        <div class="feature-card" id="feat-inverse">
+          <div class="feat-icon" style="--c:#D4AF37">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M17 1l4 4-4 4" />
+              <path d="M3 11V9a4 4 0 0 1 4-4h14" />
+              <path d="M7 23l-4-4 4-4" />
+              <path d="M21 13v2a4 4 0 0 1-4 4H3" />
+            </svg>
+          </div>
+          <h3>Numeración Inversa</h3>
+          <p>La última hoja lleva el número 1, la primera lleva el número mayor. La función que nadie más ofrece bien.
+          </p>
+          <div class="feat-tag">Exclusivo</div>
+        </div>
+
+        <div class="feature-card" id="feat-styles">
+          <div class="feat-icon" style="--c:#5B7CFA">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="3" />
+              <path
+                d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83" />
+            </svg>
+          </div>
+          <h3>Estilos Elegantes</h3>
+          <p>Números arábigos, romanos, letras. Con borde, en círculo, subrayado. Elige la fuente y el tamaño.</p>
+        </div>
+
+        <div class="feature-card" id="feat-preview">
+          <div class="feat-icon" style="--c:#2DD4BF">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+              <circle cx="12" cy="12" r="3" />
+            </svg>
+          </div>
+          <h3>Vista Previa Real</h3>
+          <p>Ve exactamente cómo quedará el número en cada página antes de descargar. Sin sorpresas.</p>
+        </div>
+
+        <div class="feature-card" id="feat-position">
+          <div class="feat-icon" style="--c:#FB923C">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="3" width="18" height="18" rx="2" />
+              <path d="M3 9h18M9 21V9" />
+            </svg>
+          </div>
+          <h3>Posición Libre</h3>
+          <p>Arriba, abajo, centro, esquinas. Ajusta el margen exacto donde quieres el número.</p>
+        </div>
+
+        <div class="feature-card" id="feat-order">
+          <div class="feat-icon" style="--c:#A78BFA">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="8" y1="6" x2="21" y2="6" />
+              <line x1="8" y1="12" x2="21" y2="12" />
+              <line x1="8" y1="18" x2="21" y2="18" />
+              <line x1="3" y1="6" x2="3.01" y2="6" />
+              <line x1="3" y1="12" x2="3.01" y2="12" />
+              <line x1="3" y1="18" x2="3.01" y2="18" />
+            </svg>
+          </div>
+          <h3>Ordenar Páginas</h3>
+          <p>Reorganiza, elimina o duplica páginas antes de numerar. Todo en un solo lugar.</p>
+        </div>
+
+      </div><!-- /features-grid -->
+    </div><!-- /section-inner -->
+  </section>
+
+  <!-- ===== TOOL ===== -->
+  <section class="tool-section" id="tool">
+    <div class="section-inner">
+      <div class="section-label">Herramienta</div>
+      <h2 class="section-title">Foliar tu PDF</h2>
+      <p class="section-sub">Sube tu archivo y configura la numeración a tu gusto.</p>
+
+      <div class="tool-wrapper" id="tool-wrapper">
+
+        <!-- UPLOAD ZONE -->
+        <div class="upload-zone" id="upload-zone">
+          <div class="upload-icon-wrap">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+              <polyline points="17 8 12 3 7 8" />
+              <line x1="12" y1="3" x2="12" y2="15" />
+            </svg>
+          </div>
+          <p class="upload-title">Arrastra tus PDFs aquí</p>
+          <p class="upload-sub">Puedes subir uno o varios PDFs para fusionarlos</p>
+          <label class="btn-upload" id="btn-upload-label">
+            <input type="file" id="file-input" accept="application/pdf" multiple hidden />
+            Seleccionar PDF(s)
+          </label>
+          <p class="upload-note">Tus archivos permanecen en tu dispositivo. No se suben a ningún servidor.</p>
+        </div>
+
+        <!-- CONFIG PANEL (hidden until file loaded) -->
+        <div class="config-panel hidden" id="config-panel">
+
+          <!-- FILE LIST BAR (replaces static file-info-bar) -->
+          <div class="file-list-bar" id="file-list-bar">
+            <div class="file-list" id="file-list"><!-- populated by JS --></div>
+            <div class="file-list-footer">
+              <span class="file-list-total" id="file-list-total"></span>
+              <button class="btn-add-more" id="btn-add-more" onclick="document.getElementById('file-input').click()">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <line x1="12" y1="5" x2="12" y2="19" />
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                </svg>
+                Agregar más
+              </button>
+            </div>
+          </div>
+
+          <div class="panel-grid">
+
+            <!-- LEFT: OPTIONS -->
+            <div class="options-col">
+
+              <div class="option-group" id="grp-mode">
+                <label class="option-label">Modo de numeración</label>
+                <div class="radio-group">
+                  <label class="radio-card selected" id="mode-normal">
+                    <input type="radio" name="mode" value="normal" checked hidden />
+                    <div class="rc-icon">1→N</div>
+                    <div class="rc-text">
+                      <strong>Normal</strong>
+                      <span>Primera hoja = 1</span>
+                    </div>
+                  </label>
+                  <label class="radio-card" id="mode-inverse">
+                    <input type="radio" name="mode" value="inverse" hidden />
+                    <div class="rc-icon">N→1</div>
+                    <div class="rc-text">
+                      <strong>Inversa</strong>
+                      <span>Última hoja = 1</span>
+                    </div>
+                  </label>
+                </div>
+              </div>
+
+              <div class="option-group" id="grp-range">
+                <label class="option-label">Rango de páginas (físicas)</label>
+                <div class="range-inputs">
+                  <div class="range-item">
+                    <span>Desde</span>
+                    <input type="number" id="range-from" class="text-input compact" value="1" min="1" />
+                  </div>
+                  <div class="range-item">
+                    <span>Hasta</span>
+                    <input type="number" id="range-to" class="text-input compact" placeholder="Todas" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="option-group" id="grp-skip">
+                <label class="option-label">Omitir páginas específicas</label>
+                <input type="text" id="skip-pages" class="text-input" placeholder="Ej: 1, 3, 5-7" />
+                <p class="apply-note" style="margin-top:4px">Separa con comas. Usa guion para rangos (ej. 5-7).</p>
+              </div>
+
+              <div class="option-group" id="grp-filter">
+                <label class="option-label">Aplicar en</label>
+                <select id="page-filter" class="custom-select">
+                  <option value="all">Todas las páginas</option>
+                  <option value="even">Solo páginas pares</option>
+                  <option value="odd">Solo páginas impares</option>
+                </select>
+              </div>
+
+              <div class="option-group" id="grp-start">
+                <label class="option-label" for="start-num">Número inicial (Lógico)</label>
+                <div class="number-input-wrap">
+                  <button class="num-btn" id="btn-dec" onclick="adjustNum(-1)">−</button>
+                  <input type="number" id="start-num" value="1" min="0" max="9999" />
+                  <button class="num-btn" id="btn-inc" onclick="adjustNum(1)">+</button>
+                </div>
+              </div>
+
+              <div class="option-group" id="grp-template">
+                <label class="option-label">Plantilla (Usa {n} y {total})</label>
+                <input type="text" id="text-template" class="text-input" value="{n}"
+                  placeholder="Ej: Pág. {n} de {total}" />
+              </div>
+
+              <div class="option-group" id="grp-font">
+                <label class="option-label">Fuente y Tamaño</label>
+                <div class="font-size-row">
+                  <select id="font-family" class="custom-select">
+                    <option value="helvetica">Helvetica / Arial</option>
+                    <option value="times">Times New Roman</option>
+                    <option value="courier">Courier</option>
+                  </select>
+                  <input type="number" id="font-size" value="12" min="8" max="72" class="text-input compact"
+                    title="Tamaño" />
+                </div>
+              </div>
+
+              <div class="option-group" id="grp-style">
+                <label class="option-label">Estilo del número</label>
+                <div class="style-grid">
+                  <button class="style-btn selected" id="style-arabic" data-style="arabic" onclick="selectStyle(this)">
+                    <span class="style-preview arabic-preview">1</span>
+                    <span>Arábigo</span>
+                  </button>
+                  <button class="style-btn" id="style-roman" data-style="roman" onclick="selectStyle(this)">
+                    <span class="style-preview roman-preview">I</span>
+                    <span>Romano</span>
+                  </button>
+                  <button class="style-btn" id="style-letter" data-style="letter" onclick="selectStyle(this)">
+                    <span class="style-preview letter-preview">A</span>
+                    <span>Letra</span>
+                  </button>
+                  <button class="style-btn" id="style-circle" data-style="circle" onclick="selectStyle(this)">
+                    <span class="style-preview circle-preview">①</span>
+                    <span>Círculo</span>
+                  </button>
+                  <button class="style-btn" id="style-formal" data-style="formal" onclick="selectStyle(this)">
+                    <span class="style-preview formal-preview" style="font-family:'DM Serif Display',serif">1</span>
+                    <span>Formal</span>
+                  </button>
+                  <button class="style-btn" id="style-dash" data-style="dash" onclick="selectStyle(this)">
+                    <span class="style-preview dash-preview">–1–</span>
+                    <span>Guiones</span>
+                  </button>
+                </div>
+              </div>
+
+              <div class="option-group" id="grp-position">
+                <label class="option-label">Posición</label>
+                <div class="position-grid" id="position-grid">
+                  <button class="pos-btn" id="pos-tl" data-pos="top-left" onclick="selectPos(this)"
+                    title="Superior izquierda">↖</button>
+                  <button class="pos-btn selected" id="pos-tc" data-pos="top-center" onclick="selectPos(this)"
+                    title="Superior centro">↑</button>
+                  <button class="pos-btn" id="pos-tr" data-pos="top-right" onclick="selectPos(this)"
+                    title="Superior derecha">↗</button>
+                  <button class="pos-btn" id="pos-bl" data-pos="bottom-left" onclick="selectPos(this)"
+                    title="Inferior izquierda">↙</button>
+                  <button class="pos-btn" id="pos-bc" data-pos="bottom-center" onclick="selectPos(this)"
+                    title="Inferior centro">↓</button>
+                  <button class="pos-btn" id="pos-br" data-pos="bottom-right" onclick="selectPos(this)"
+                    title="Inferior derecha">↘</button>
+                </div>
+              </div>
+
+              <div class="option-group" id="grp-color">
+                <label class="option-label">Color del número</label>
+                <div class="color-row">
+                  <button class="color-swatch selected" id="color-black" data-color="#1a1a1a" style="background:#1a1a1a"
+                    onclick="selectColor(this)"></button>
+                  <button class="color-swatch" id="color-gray" data-color="#6B7280" style="background:#6B7280"
+                    onclick="selectColor(this)"></button>
+                  <button class="color-swatch" id="color-blue" data-color="#1D4ED8" style="background:#1D4ED8"
+                    onclick="selectColor(this)"></button>
+                  <button class="color-swatch" id="color-red" data-color="#B91C1C" style="background:#B91C1C"
+                    onclick="selectColor(this)"></button>
+                  <button class="color-swatch" id="color-gold" data-color="#92400E" style="background:#92400E"
+                    onclick="selectColor(this)"></button>
+                  <label class="color-custom-wrap" title="Color personalizado">
+                    <input type="color" id="color-custom-input" value="#000000" oninput="customColor(this)" />
+                    <span class="color-custom-icon">+</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <!-- RIGHT: PREVIEW -->
+            <div class="preview-col" id="preview-col">
+              <div class="preview-header">
+                <span class="option-label">Vista previa</span>
+                <div class="preview-nav">
+                  <button class="prev-nav-btn" id="btn-prev-page" onclick="changePage(-1)">‹</button>
+                  <span class="page-indicator" id="page-indicator">Página 1 de 1</span>
+                  <button class="prev-nav-btn" id="btn-next-page" onclick="changePage(1)">›</button>
+                </div>
+              </div>
+              <div class="preview-canvas-wrap" id="preview-canvas-wrap">
+                <canvas id="preview-canvas"></canvas>
+                <div class="preview-num-overlay" id="preview-num-overlay">1</div>
+              </div>
+
+              <div class="preview-actions" style="margin-top: 8px;">
+                <button class="btn-apply" id="btn-apply" onclick="applyNumbers()">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                  Aplicar numeración
+                </button>
+                <p class="apply-note" style="margin-top: 8px;">Se genera un nuevo PDF descargable. El original no se
+                  modifica.</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- DOWNLOAD PANEL (hidden until processed) -->
+        <div class="download-panel hidden" id="download-panel">
+          <div class="dl-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+              <polyline points="7 10 12 15 17 10" />
+              <line x1="12" y1="15" x2="12" y2="3" />
+            </svg>
+          </div>
+          <p class="dl-title">¡Listo! Tu PDF ha sido numerado</p>
+          <p class="dl-sub" id="dl-sub-text">El archivo está listo para descargar.</p>
+          <a class="btn-download" id="btn-download" href="#">
+            Descargar PDF numerado
+          </a>
+          <button class="btn-again" id="btn-again" onclick="resetTool()">Foliar otro PDF</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HOW IT WORKS ===== -->
+  <section class="how-section" id="how">
+    <div class="section-inner">
+      <div class="section-label">¿Cómo funciona?</div>
+      <h2 class="section-title">Tres pasos, resultado profesional</h2>
+      <div class="steps-row" id="steps-row">
+        <div class="step" id="step-1">
+          <div class="step-num">1</div>
+          <h3>Sube tu PDF</h3>
+          <p>Arrastra o selecciona tu archivo. No hay límite de tamaño ni de páginas.</p>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step" id="step-2">
+          <div class="step-num">2</div>
+          <h3>Configura</h3>
+          <p>Elige el estilo, la posición, el color y si quieres numeración normal o inversa.</p>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step" id="step-3">
+          <div class="step-num">3</div>
+          <h3>Descarga</h3>
+          <p>Haz clic en "Aplicar" y descarga tu PDF listo en segundos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="32" height="32" rx="6" fill="var(--primary)" />
+          <path d="M9 7h8l6 6v10a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2z" stroke="white" stroke-width="2" />
+          <text x="11.5" y="21" font-family="sans-serif" font-weight="800" font-size="9" fill="white">123</text>
+        </svg>
+        <span class="footer-name">NumeraPDF</span>
+      </div>
+      <p class="footer-copy">© 2025 NumeraPDF. Herramienta gratuita de numeración de PDF.</p>
+      <div class="footer-links">
+        <a href="#" id="lnk-privacy">Privacidad</a>
+        <a href="#" id="lnk-contact">Contacto</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- pdf-lib CDN -->
+  <script src="https://unpkg.com/pdf-lib@1.17.1/dist/pdf-lib.min.js"
+    integrity="sha256-D5pcrQeUHwgmWGyU4InYm5GMRuXBfPLVo8b2ZuO8aU8=" crossorigin="anonymous"></script>
+  <!-- PDF.js para preview -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"
+    integrity="sha512-q+4liFwdPC/bNdhUpZx6aXDx/h77yEQtn4I1slHydcbZK34nLaR3cAeYSJshoxIOq3mjEf7xJE8YWIUHMn+oCQ=="
+    crossorigin="anonymous"></script>
+  <script>
+    // Set PDF.js worker
+    if (typeof pdfjsLib !== 'undefined') {
+      fetch('https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js', {
+        integrity: 'sha512-BbrZ76UNZq5BhH7LL7pn9A4TKQpQeNCHOo65/akfelcIBbcVvYWOFQKPXIrykE3qZxYjmDX573oa4Ywsc7rpTw=='
+      })
+        .then(res => res.blob())
+        .then(blob => {
+          pdfjsLib.GlobalWorkerOptions.workerSrc = URL.createObjectURL(blob);
+        })
+        .catch(err => console.error('Error loading PDF.js worker:', err));
+    }
+  </script>
+  <script src="app.js"></script>
+</body>
+
+</html>
