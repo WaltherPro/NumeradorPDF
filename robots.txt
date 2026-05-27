@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://foliomark.netlify.app/sitemap.xml
+Sitemap: https://numerapdf.netlify.app/sitemap.xml
